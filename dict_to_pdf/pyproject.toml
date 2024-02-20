@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "dict-to-pdf"
+version = "0.1.0"
+description = ""
+authors = ["dimalbek <dimalbek@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+reportlab = "^4.0.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
